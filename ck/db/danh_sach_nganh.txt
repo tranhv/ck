@@ -1,0 +1,20 @@
+1	Bất động sản
+2	Cao su
+3	Chứng khoán
+4	Công nghệ viễn thông
+5	Dầu khí
+6	Dịch vụ - du lịch
+7	Dược phẩm/ Y tế/ Hoá chất
+8	Giáo dục
+9	Khoáng sản
+10	Năng lượng điện/ Khí/ Gas
+11	Ngân hàng - bảo hiểm
+12	Nhựa- bao bì
+13	Sản xuất - kinh doanh
+14	Ngành thép
+15	Thực phẩm
+16	Thương mại
+17	Thuỷ sản
+18	Vận tải/ cảng / taxi
+19	Vật liệu xây dựng
+20	Xây dựng

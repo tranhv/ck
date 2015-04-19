@@ -1,0 +1,15 @@
+#Links:
+
+#data stock daily for all ticket
+link_stock_daily: "http://www.cophieu68.vn/export/dailymetastock.php?date="
+
+#data stock for ticket
+link_stock_ticket: "http://www.cophieu68.vn/export/metastock.php?id="
+
+#financial report
+link_financial_report: "http://www.cophieu68.vn/export/reportfinance.php?id="
+
+link_login: "http://www.cophieu68.vn/account/login.php"    
+
+username: "tran_tran2004@yahoo.com"
+tpassword: = "075763905"

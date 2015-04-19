@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ma_nganh: 1
+  ten_nganh: MyString
+
+two:
+  ma_nganh: 1
+  ten_nganh: MyString
