@@ -35,19 +35,13 @@ class Companies < ActiveRecord::Migration
 
     create_table :stocks do |t|
         t.string :ticker  
-        t.datetime :date    
-        t.string :openfixed       
-        t.string :highfixed       
-        t.string :lowfixed    
-        t.string :closefixed      
-        t.string :volume      
+        t.datetime :date
         t.string :open    
         t.string :high    
         t.string :low     
-        t.string :close       
-        t.string :volumedeal      
-        t.string :volumefb    
-        t.string :volumefs  
+        t.string :close
+        t.string :volume      
+
     end
 
     create_table :financial_reports do |t|

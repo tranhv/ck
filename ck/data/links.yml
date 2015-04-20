@@ -3,8 +3,8 @@
 #data stock daily for all ticket
 link_stock_daily: "http://www.cophieu68.vn/export/dailymetastock.php?date="
 
-#data stock for ticket
-link_stock_ticket: "http://www.cophieu68.vn/export/metastock.php?id="
+#data stock for all
+link_stock_ticket: "http://www.cophieu68.vn/export/excel_all.php"
 
 #financial report
 link_financial_report: "http://www.cophieu68.vn/export/reportfinance.php?id="

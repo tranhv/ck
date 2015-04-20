@@ -14151,3 +14151,24 @@ ORDER BY c.conname
   [1m[36mCompany Load (6.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
   [1m[36mCompany Load (7.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
   [1m[36mCompany Load (6.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+  [1m[36m (2.9ms)[0m  [1m    copy stocks(ticker,date,open,high,low,close,volumn)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+[0m
+PG::UndefinedColumn: ERROR:  column "volumn" of relation "stocks" does not exist
+:     copy stocks(ticker,date,open,high,low,close,volumn)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+
+  [1m[36m (3.0ms)[0m  [1m    copy stocks(ticker,date,open,high,low,close,volume)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+[0m
+PG::InsufficientPrivilege: ERROR:  could not open file "/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt" for reading: Permission denied
+:     copy stocks(ticker,date,open,high,low,close,volume)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+
+  [1m[36m (1.0ms)[0m  [1m    copy stocks(ticker,date,open,high,low,close,volume)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+[0m
+PG::InsufficientPrivilege: ERROR:  could not open file "/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt" for reading: Permission denied
+:     copy stocks(ticker,date,open,high,low,close,volume)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
+

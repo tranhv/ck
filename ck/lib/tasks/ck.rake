@@ -51,8 +51,21 @@ namespace :ck do
       else
         puts 'success'
       end
+
+      #Inset database
+
+
       return
     }
+  end
+
+
+  task :insert => :environment do
+    sql = <<-SQL
+    copy stocks(ticker,date,open,high,low,close,volume)
+    from '#{Rails.root}/data/stock_tmp.txt' delimiter ',' CSV;
+    SQL
+    ActiveRecord::Base.connection.execute(sql)
   end
 
 
