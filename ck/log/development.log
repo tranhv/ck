@@ -14172,3 +14172,25 @@ PG::InsufficientPrivilege: ERROR:  could not open file "/Users/mc976/google_driv
 :     copy stocks(ticker,date,open,high,low,close,volume)
     from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV;
 
+  [1m[36m (12.3ms)[0m  [1m    copy stocks(ticker,date,open,high,low,close,volume)
+    from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+[0m
+  [1m[36m (1.0ms)[0m  [1m      copy stocks(ticker,date,open,high,low,close,volume)
+      from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+[0m
+PG::CharacterNotInRepertoire: ERROR:  invalid byte sequence for encoding "UTF8": 0x00
+CONTEXT:  COPY stocks, line 1
+:       copy stocks(ticker,date,open,high,low,close,volume)
+      from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+
+  [1m[36m (0.8ms)[0m  [1m      copy stocks(ticker,date,open,high,low,close,volume)
+      from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+[0m
+PG::CharacterNotInRepertoire: ERROR:  invalid byte sequence for encoding "UTF8": 0x00
+CONTEXT:  COPY stocks, line 1
+:       copy stocks(ticker,date,open,high,low,close,volume)
+      from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+
+  [1m[36m (15829.5ms)[0m  [1m      copy stocks(ticker,date,open,high,low,close,volume)
+      from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
+[0m

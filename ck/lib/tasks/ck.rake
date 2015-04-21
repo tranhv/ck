@@ -1,7 +1,7 @@
 require 'mechanize'
 require 'csv'
 require 'yaml'
-
+require 'zip'
 
 namespace :ck do
   desc "Down load data from web"
@@ -26,7 +26,7 @@ namespace :ck do
   end
 
   desc "import stock daily"
-  task :import_stock_daily => :environment do
+  task :import_stock_daily_all => :environment do
     p "import stock daily - #{Time.now}"
     link_config = YAML.load_file("#{Rails.root}/data/links.yml")
 
@@ -41,33 +41,34 @@ namespace :ck do
 
     url = link_config["link_stock_ticket"]
     
-    Company.all.map { |c| c.ma_ck }.each { |ticket|
-      p "ticket -> #{ticket}"
-      #down load + save file
-      File.delete("#{Rails.root}/data/stock_tmp.txt") if File.exist?("#{Rails.root}/data/stock_tmp.txt")
-      agent.get("#{url}#{ticket}").save("#{Rails.root}/data/stock_tmp.txt")
-      if a.body.include? "Sai Email"
-        puts 'fail'
-      else
-        puts 'success'
+    #down load + save file
+    File.delete("#{Rails.root}/data/stock_tmp.txt") if File.exist?("#{Rails.root}/data/stock_tmp.txt")
+    File.delete("#{Rails.root}/data/stock_tmp.zip") if File.exist?("#{Rails.root}/data/stock_tmp.zip")
+    agent.get("#{url}").save("#{Rails.root}/data/stock_tmp.zip")
+    if a.body.include? "Sai Email"
+      puts 'fail'
+    else
+      puts 'success'
+    end
+
+    Zip::ZipFile.open("#{Rails.root}/data/stock_tmp.zip") do |zipfile|
+      zipfile.each do |file|
+        puts file.name
+        zipfile.extract(file, "#{Rails.root}/data/stock_tmp.txt")
       end
-
-      #Inset database
-
-
-      return
-    }
-  end
-
-
-  task :insert => :environment do
+    end
+    #Insert database
     sql = <<-SQL
-    copy stocks(ticker,date,open,high,low,close,volume)
-    from '#{Rails.root}/data/stock_tmp.txt' delimiter ',' CSV;
+      copy stocks(ticker,date,open,high,low,close,volume)
+      from '#{Rails.root}/data/stock_tmp.txt' delimiter ',' CSV header;
     SQL
     ActiveRecord::Base.connection.execute(sql)
   end
 
+
+  task :test => :environment do
+    
+  end
 
   desc "Import data"
   task :import_data => :environment do
