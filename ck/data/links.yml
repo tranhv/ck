@@ -2,6 +2,7 @@
 
 #data stock daily for all ticket
 link_stock_daily: "http://www.cophieu68.vn/export/dailymetastock.php?date="
+#sample: http://www.cophieu68.vn/export/dailymetastock.php?date=22-04-2015
 
 #data stock for all
 link_stock_ticket: "http://www.cophieu68.vn/export/excel_all.php"

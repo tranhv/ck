@@ -14194,3 +14194,6 @@ CONTEXT:  COPY stocks, line 1
   [1m[36m (15829.5ms)[0m  [1m      copy stocks(ticker,date,open,high,low,close,volume)
       from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_tmp.txt' delimiter ',' CSV header;
 [0m
+  [1m[36m (15.2ms)[0m  [1m        copy stocks(ticker,date,open,high,low,close,volume)
+        from '/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/data/stock_daily_tmp.txt' delimiter ',' CSV header;
+[0m

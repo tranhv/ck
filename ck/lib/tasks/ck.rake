@@ -4,29 +4,9 @@ require 'yaml'
 require 'zip'
 
 namespace :ck do
-  desc "Down load data from web"
-  task :down_data => :environment do
-    puts "down_data #{Time.now}"
-    url = "http://www.cophieu68.vn/export/metastock.php?id=^vnindex"
-    url_login ="http://www.cophieu68.vn/account/login.php"    
-    
-    agent = Mechanize.new
-    agent.follow_meta_refresh = true
-    page = agent.get(url_login)
-    form = page.form_with(:action => 'login.php')
-    form.username  = "tran_tran2004@yahoo.com"
-    form.tpassword = "075763905"
-    a = agent.submit(form, form.buttons.first)    
-    agent.get(url).save("/Users/mc976/ck/tmp.txt")
-    if a.body.include? "Sai Email"
-      puts 'fail'
-    else
-      puts 'success'
-    end
-  end
 
-  desc "import stock daily"
-  task :import_stock_daily_all => :environment do
+  desc "import stock daily full"
+  task :import_stock_daily_full => :environment do
     p "import stock daily - #{Time.now}"
     link_config = YAML.load_file("#{Rails.root}/data/links.yml")
 
@@ -59,10 +39,49 @@ namespace :ck do
     end
     #Insert database
     sql = <<-SQL
+      truncate stocks;
       copy stocks(ticker,date,open,high,low,close,volume)
       from '#{Rails.root}/data/stock_tmp.txt' delimiter ',' CSV header;
     SQL
     ActiveRecord::Base.connection.execute(sql)
+  end
+
+desc "import stock daily"
+  task :import_stock_daily,[:start_date,:end_date] => :environment do |t,args|
+    p "import stock daily from #{args[:start_date]} to #{args[:end_date]} - #{Time.now}"
+    link_config = YAML.load_file("#{Rails.root}/data/links.yml")
+
+    #login
+    agent = Mechanize.new
+    agent.follow_meta_refresh = true
+    page = agent.get(link_config["link_login"])
+    form = page.form_with(:action => 'login.php')
+    form.username  = "tran_tran2004@yahoo.com"
+    form.tpassword = "075763905"
+    a = agent.submit(form, form.buttons.first)
+
+    url = link_config["link_stock_daily"]
+     
+    start_date = Date.strptime(args[:start_date].to_s, '%Y-%m-%d')
+    end_date = Date.strptime(args[:end_date].to_s, '%Y-%m-%d')
+    
+    (start_date..end_date).each do |date|
+      #down load + save file
+      File.delete("#{Rails.root}/data/stock_daily_tmp.txt") if File.exist?("#{Rails.root}/data/stock_daily_tmp.txt")
+      agent.get("#{url}#{date.strftime}").save("#{Rails.root}/data/stock_daily_tmp.txt")
+      if a.body.include? "Sai Email"
+        puts 'fail'
+      else
+        puts 'success'
+      end
+
+      #Insert database
+      sql = <<-SQL
+        copy stocks(ticker,date,open,high,low,close,volume)
+        from '#{Rails.root}/data/stock_daily_tmp.txt' delimiter ',' CSV header;
+      SQL
+      ActiveRecord::Base.connection.execute(sql)
+    end
   end
 
 
