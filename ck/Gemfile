@@ -45,5 +45,6 @@ group :development, :test do
 
   gem 'httparty'
   gem 'mechanize'
+  gem 'rails_layout'
 end
 

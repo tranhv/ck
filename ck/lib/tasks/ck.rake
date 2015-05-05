@@ -46,7 +46,17 @@ namespace :ck do
     ActiveRecord::Base.connection.execute(sql)
   end
 
-desc "import stock daily"
+  desc "import_financial"
+  task :import_financial =>  :environment do
+    sql = <<-SQL
+      truncate financial_reports;
+      copy financial_reports(ticker,year,quater,current_assets,cash_and_cash_euivalents,short_term_financial_investment,short_term_account_receivables,inventory,other_current_assets,non_current_assets,long_term_account_receivable,fixed_assets,loi_the_thuong_mai,real_estate_investment,long_term_finacial_investments,other_long_term_assets,total_assets,liabilities,short_term_liabilities,long_term_liabilities,owners_equity,loi_ich_co_dong_thieu_so,total_equity,gross_sale_revenues,deduction_revenues,net_sales,cost_of_goods_sold,gross_profit,financial_activities_revenues,financial_expenses,selling_expenses,managing_expenses,net_profit_from_operating_activities,other_incomes,other_expenses,other_profits,total_profit_before_tax,profit_after_corporate_income_tax,ebitda)
+      from '#{Rails.root}/data/bao_cao_tai_chinh_20150430.txt' delimiter '\t' CSV header;;
+    SQL
+    ActiveRecord::Base.connection.execute(sql)
+  end
+
+  desc "import stock daily"
   task :import_stock_daily,[:start_date,:end_date] => :environment do |t,args|
     p "import stock daily from #{args[:start_date]} to #{args[:end_date]} - #{Time.now}"
     link_config = YAML.load_file("#{Rails.root}/data/links.yml")
