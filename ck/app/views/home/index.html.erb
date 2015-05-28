@@ -1,24 +1,34 @@
-<table>
-  <tr>
-    <th>Mã CK</th>
-    <th>Sàn</th>
-    <th>Tên công ty</th>
-    <th>Tên quốc tế</th>
-    <th>Địa chỉ</th>
-    <th>Số điện thoại</th>
-    <th>Fax</th>
-    <th>Website</th>
-  </tr>
-<% @data_companies.each do |com| %>
-  <tr>
-    <td><%= com.ma_ck %></td>
-    <td><%= com.san_ck %></td>
-    <td><%= com.ten_cong_ty %></td>
-    <td><%= com.ten_quoc_te %></td>
-    <td><%= com.dia_chi %></td>
-    <td><%= com.dien_thoai %></td>
-    <td><%= com.fax %></td>
-    <td><%= com.website %></td>
-  </tr>
-<% end %> 
-</table>>
+  <div id="div_search">
+  Chọn sàn:
+  <%= select_tag "san", options_for_select(@san,1),{:onchange => "test_javascript('tranvh');"} %>
+  </div>
+  <div id="table_companies">
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Mã CK</th>
+        <th>Sàn</th>
+        <th>Tên công ty</th>
+        <th>Tên quốc tế</th>
+        <th>Địa chỉ</th>
+        <th>Số điện thoại</th>
+        <th>Fax</th>
+        <th>Website</th>
+      </tr>
+    <% @data_companies.each_with_index do |com,index| %>
+      <tr id="data_row">
+        <td><%= index+1 %></td>
+        <td><%= com.ma_ck %></td>
+        <td><%= com.san_ck %></td>
+        <td><%= com.ten_cong_ty %></td>
+        <td><%= com.ten_quoc_te %></td>
+        <td><%= com.dia_chi %></td>
+        <td><%= com.dien_thoai %></td>
+        <td><%= com.fax %></td>
+        <td><%= com.website %></td>
+      </tr>
+    <% end %> 
+    </table>
+    </div>
+<div id="footer">
+</div>

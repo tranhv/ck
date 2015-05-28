@@ -19,19 +19,36 @@ body {
    font-family: Helvetica, Geneva, Arial, sans-serif;
    font-size: small;
    font-color: #000;
-   background-color: #fff;
+   height: 100%;
+   overflow:auto;
+   /*background-image: url('background_image.jpg');
+   #background-repeat: repeat-x;*/
+}
+div#container{
+  width: 970px;
+  margin: 0 auto;
 }
 a:link, a:active, a:visited {
    color: #CD0000;
 }
-div#container {
+div#header {
    width: 860px;
    margin: 0 auto;
-}
-div#header {
    text-align: center;
    padding-bottom: 15px;
+   
 }
+/*div#data{
+width: 970px;
+margin: 0 auto;
+}*/
+
+div#bottom{
+   width: 860px;
+   margin: 0 auto;
+   text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
