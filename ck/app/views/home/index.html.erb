@@ -1,6 +1,6 @@
   <div id="div_search">
   Chọn sàn:
-  <%= select_tag "san", options_for_select(@san,1),{:onchange => "test_javascript('tranvh1');"} %>
+  <%= select_tag "san", options_for_select(@san,1),{:onchange => "change_san();"} %>
   </div>
   <div id="table_companies">
     <table>
@@ -32,3 +32,12 @@
     </div>
 <div id="footer">
 </div>
+<script type="text/javascript">
+  var main_url = "<%= url_for :controller => 'home', :action => 'index'%>";
+  var select_san = GetURLParameter('san_id');
+  $('#san').val(select_san).prop('selected',true);
+  if (!select_san) {
+    $('#san').val("ALL").prop('selected',true);
+  }
+  //alert(select_san);
+</script>
