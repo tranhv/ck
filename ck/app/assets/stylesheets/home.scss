@@ -11,14 +11,14 @@
   border-radius: 5px;
   width: 100%; 
   float: right;
+  margin-bottom: 10px;
 }
 #table_companies {
   padding: 15px;  
   background-color: #fff;
-  border: 1px solid #990000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border: 0px;
   width: 100%; 
   float: right;
   }
@@ -30,3 +30,23 @@
   width: 100%; 
   float: right;
 }
+.tr_header{
+  background-color: #fae3a3;
+  font-weight: 100;
+  color: #333;
+}
+td.com{
+  border-bottom:1px solid #ccc;
+}
+tr.data_row.row_0{
+  background-color: #faf2e8;
+  font-weight: 100;
+  color: #333;
+}
+tr.data_row.row_1{
+  background-color: #edfaf5;
+  font-weight: 100;
+  color: #333;
+}
+
+

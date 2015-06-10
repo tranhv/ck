@@ -3,8 +3,8 @@
   <%= select_tag "san", options_for_select(@san,1),{:onchange => "change_san();"} %>
   </div>
   <div id="table_companies">
-    <table>
-      <tr>
+    <table border="0" cellspacing="0" cellpadding="3">
+      <tr class="tr_header">
         <th>No.</th>
         <th>Mã CK</th>
         <th>Sàn</th>
@@ -13,19 +13,19 @@
         <th>Địa chỉ</th>
         <th>Số điện thoại</th>
         <th>Fax</th>
-        <th>Website</th>
+        <th style="text-align:center;">Website</th>
       </tr>
     <% @data_companies.each_with_index do |com,index| %>
-      <tr id="data_row">
-        <td><%= index+1 %></td>
-        <td><%= com.ma_ck %></td>
-        <td><%= com.san_ck %></td>
-        <td><%= com.ten_cong_ty %></td>
-        <td><%= com.ten_quoc_te %></td>
-        <td><%= com.dia_chi %></td>
-        <td><%= com.dien_thoai %></td>
-        <td><%= com.fax %></td>
-        <td><%= com.website %></td>
+      <tr class="data_row row_<%=(index + 1)%2 %>">
+        <td class="com"><%= index+1 %></td>
+        <td class="com"><%= com.ma_ck %></td>
+        <td class="com"><%= com.san_ck %></td>
+        <td class="com"><%= com.ten_cong_ty %></td>
+        <td class="com"><%= com.ten_quoc_te %></td>
+        <td class="com"><%= com.dia_chi %></td>
+        <td class="com"><%= com.dien_thoai %></td>
+        <td class="com"><%= com.fax %></td>
+        <td class="com" style="text-align:left;"><%=link_to(com.website, com.website)%></td>
       </tr>
     <% end %> 
     </table>
