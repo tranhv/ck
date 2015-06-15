@@ -16,16 +16,19 @@
         <th style="text-align:center;">Website</th>
       </tr>
     <% @data_companies.each_with_index do |com,index| %>
+
+      <% website = com.website.include?("http")? com.website : ("http://" + com.website)%>
+
       <tr class="data_row row_<%=(index + 1)%2 %>">
         <td class="com"><%= index+1 %></td>
-        <td class="com"><%= com.ma_ck %></td>
+        <td class="com"><%=link_to(com.ma_ck,"company/" + com.id.to_s)%></td>
         <td class="com"><%= com.san_ck %></td>
         <td class="com"><%= com.ten_cong_ty %></td>
         <td class="com"><%= com.ten_quoc_te %></td>
         <td class="com"><%= com.dia_chi %></td>
         <td class="com"><%= com.dien_thoai %></td>
         <td class="com"><%= com.fax %></td>
-        <td class="com" style="text-align:left;"><%=link_to(com.website, com.website)%></td>
+        <td class="com" style="text-align:left;"><%=link_to(com.website, website)%></td>
       </tr>
     <% end %> 
     </table>

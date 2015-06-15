@@ -28919,3 +28919,1849 @@ Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for
 
 
 Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:21:58 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:44:38 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 62ms (Views: 60.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-3e43809c90e928e1ff8d7a197e4e65bc.css?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/application-4830663f833989cc3a0c7c8c4b0acbe1.css?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:44:38 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:45:09 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-3e43809c90e928e1ff8d7a197e4e65bc.css?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/application-4830663f833989cc3a0c7c8c4b0acbe1.css?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:45:09 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:49:18 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.5ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 110ms (Views: 108.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/company-eda45774e457a88d99ab58c1596879b4.css?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/application-6b8625423a022ccb57021f1c480b33af.css?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:49:18 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:49:36 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 90.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-0c9bc84bf96b071a0295929d17afaafb.css?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/application-0882354628a88eb68aeccecd4be45eb0.css?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:49:36 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:50:13 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.8ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/company-7b5eddbfd1ed8c7ad1977892d57e9629.css?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/application-937a24dcfdfc90afab9621fa218868a6.css?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:50:13 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-10 23:50:41 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.7ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 90ms (Views: 88.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/company-48cc0535c065096a735d0d93c39c5bab.css?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/application-01b05d4bc0362b03817247bd6e8b0c96.css?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-10 23:50:42 +0700
+
+
+Started GET "/" for ::1 at 2015-06-11 23:24:14 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (27.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (36.7ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (81.3ms)
+Completed 200 OK in 212ms (Views: 156.4ms | ActiveRecord: 46.7ms)
+
+
+Started GET "/" for ::1 at 2015-06-11 23:24:18 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.7ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 72ms (Views: 69.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:24:18 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:24:19 +0700
+
+
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2015-06-11 23:24:19 +0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (38.0ms)
+
+
+Started GET "/apple-touch-icon.png" for ::1 at 2015-06-11 23:24:19 +0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-11 23:24:29 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.7ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:24:30 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (18.7ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 85ms (Views: 62.0ms | ActiveRecord: 18.7ms)
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:30:10 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.9ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/company-48cc0535c065096a735d0d93c39c5bab.css?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/application-01b05d4bc0362b03817247bd6e8b0c96.css?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:30:10 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:37:26 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.8ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/company-48cc0535c065096a735d0d93c39c5bab.css?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/application-01b05d4bc0362b03817247bd6e8b0c96.css?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:37:26 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:39:09 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-48cc0535c065096a735d0d93c39c5bab.css?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/application-01b05d4bc0362b03817247bd6e8b0c96.css?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:39:09 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:42:02 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 92ms (Views: 89.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:42:02 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:43:53 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.7ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 66.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:43:53 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:44:02 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.7ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:44:02 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-11 23:44:30 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.7ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-11 23:44:30 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 21:14:37 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (35.6ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (94.6ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 45.6ms)
+
+ActionView::Template::Error (undefined local variable or method `company_show' for #<#<Class:0x007ff912bc8438>:0x007ff9118add80>):
+    18:     <% @data_companies.each_with_index do |com,index| %>
+    19:       <tr class="data_row row_<%=(index + 1)%2 %>">
+    20:         <td class="com"><%= index+1 %></td>
+    21:         <td class="com"><%=link_to(company_show)%> <%= com.ma_ck %></td>
+    22:         <td class="com"><%= com.san_ck %></td>
+    23:         <td class="com"><%= com.ten_cong_ty %></td>
+    24:         <td class="com"><%= com.ten_quoc_te %></td>
+  app/views/home/index.html.erb:21:in `block in _app_views_home_index_html_erb___2877288331357280914_70353868728080'
+  app/views/home/index.html.erb:18:in `_app_views_home_index_html_erb___2877288331357280914_70353868728080'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.6ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (41.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 21:18:08 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.8ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.8ms)
+
+ActionView::Template::Error (no implicit conversion of Fixnum into String):
+    18:     <% @data_companies.each_with_index do |com,index| %>
+    19:       <tr class="data_row row_<%=(index + 1)%2 %>">
+    20:         <td class="com"><%= index+1 %></td>
+    21:         <td class="com"><%=link_to("company/" + com.id,com.ma_ck)%></td>
+    22:         <td class="com"><%= com.san_ck %></td>
+    23:         <td class="com"><%= com.ten_cong_ty %></td>
+    24:         <td class="com"><%= com.ten_quoc_te %></td>
+  app/views/home/index.html.erb:21:in `+'
+  app/views/home/index.html.erb:21:in `block in _app_views_home_index_html_erb___2877288331357280914_70353895720240'
+  app/views/home/index.html.erb:18:in `_app_views_home_index_html_erb___2877288331357280914_70353895720240'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.5ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 21:18:42 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.9ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 132ms (Views: 129.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 21:18:42 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 21:19:05 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:19:05 +0700
+
+
+Started GET "/company/21" for ::1 at 2015-06-15 21:19:08 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (18.1ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 88ms (Views: 63.2ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/?san_id=HOSE" for ::1 at 2015-06-15 21:22:36 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"san_id"=>"HOSE"}
+  [1m[36mCompany Load (2.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1) and san_ck = 'HOSE')[0m
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:22:36 +0700
+
+
+Started GET "/?san_id=HOSE" for ::1 at 2015-06-15 21:43:56 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"san_id"=>"HOSE"}
+  [1m[35mCompany Load (1.9ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1) and san_ck = 'HOSE')
+  Rendered home/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 83ms (Views: 80.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:43:56 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 21:44:10 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.9ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 79ms (Views: 76.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 21:44:10 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 21:46:36 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.7ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-15 21:46:37 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.9ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 92ms (Views: 89.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/company/21" for ::1 at 2015-06-15 21:47:14 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 21:53:00 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.8ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/company/21" for ::1 at 2015-06-15 22:08:57 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mCompany Load (0.5ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company/72" for ::1 at 2015-06-15 22:09:03 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '72')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:05 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:08 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:09 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:15 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:17 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:19 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.8ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:20 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:21 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:22 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:23 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/company" for ::1 at 2015-06-15 22:09:26 +0700
+Processing by CompanyController#index as HTML
+  Rendered company/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:31 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.5ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:35 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:37 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:09:38 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/about" for ::1 at 2015-06-15 22:09:39 +0700
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/about" for ::1 at 2015-06-15 22:09:39 +0700
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:28 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.7ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:10:28 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:29 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.7ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 96ms (Views: 94.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/company/21" for ::1 at 2015-06-15 22:10:32 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mCompany Load (0.7ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '21')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:33 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:35 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 75ms (Views: 72.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:36 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 96ms (Views: 93.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:10:37 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.4ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/company/72" for ::1 at 2015-06-15 22:10:39 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '72')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/company/72" for ::1 at 2015-06-15 22:12:13 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '72')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:12:13 +0700
+
+
+Started GET "/company/www.pvcl.com.vn" for ::1 at 2015-06-15 22:12:16 +0700
+
+ActionController::RoutingError (No route matches [GET] "/company/www.pvcl.com.vn"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.6ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/company/72" for ::1 at 2015-06-15 22:12:18 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"72"}
+  [1m[35mCompany Load (0.9ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '72')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:12:23 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 78ms (Views: 75.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/www.apeci.com.vn" for ::1 at 2015-06-15 22:12:25 +0700
+
+ActionController::RoutingError (No route matches [GET] "/www.apeci.com.vn"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:12:28 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.2ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 111ms (Views: 107.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/www.saomaiag.vn" for ::1 at 2015-06-15 22:12:29 +0700
+
+ActionController::RoutingError (No route matches [GET] "/www.saomaiag.vn"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:20:35 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/app/views/home/index.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end  
+                 ^
+/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/app/views/home/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/mc976/google_drive/cao_hoc/03_luan_van/03_code/ck_git/ck/app/views/home/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/index.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+  app/views/home/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:20:54 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 75ms (Views: 72.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:20:54 +0700
+
+
+Started GET "/www.apeci.com.vn" for ::1 at 2015-06-15 22:20:56 +0700
+
+ActionController::RoutingError (No route matches [GET] "/www.apeci.com.vn"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:20:59 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.2ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 120ms (Views: 116.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/www.idiseafood.com" for ::1 at 2015-06-15 22:24:05 +0700
+
+ActionController::RoutingError (No route matches [GET] "/www.idiseafood.com"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.4ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:27:09 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.0ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 82ms (Views: 79.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:27:09 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 22:27:14 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.1ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 89ms (Views: 86.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:29:49 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.7ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (undefined method `include' for "www.apeci.com.vn\r":String):
+    17:       </tr>
+    18:     <% @data_companies.each_with_index do |com,index| %>
+    19: 
+    20:       <%= website = com.website.include("http")? com.website : ("http://" + com.website)%>
+    21: 
+    22:       <tr class="data_row row_<%=(index + 1)%2 %>">
+    23:         <td class="com"><%= index+1 %></td>
+  app/views/home/index.html.erb:20:in `block in _app_views_home_index_html_erb___2877288331357280914_70353892576740'
+  app/views/home/index.html.erb:18:in `_app_views_home_index_html_erb___2877288331357280914_70353892576740'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.8ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.3ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:30:21 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.9ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 80ms (Views: 77.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:30:21 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 22:30:41 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (2.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 122ms (Views: 119.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 22:30:55 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (1.9ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:30:55 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 22:31:01 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.8ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 103ms (Views: 100.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 22:31:01 +0700
+
+
+Started GET "/" for ::1 at 2015-06-15 22:34:01 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.2ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 110ms (Views: 106.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/company/27" for ::1 at 2015-06-15 22:51:13 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mCompany Load (0.7ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '27')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 84.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/company/27" for ::1 at 2015-06-15 23:00:05 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mCompany Load (0.6ms)[0m  SELECT  "companies".* FROM "companies" WHERE (id = '27')  ORDER BY "companies"."id" ASC LIMIT 1
+  Rendered company/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/company-16c6e9fc999407b8b6314f53d5a8c9b0.css?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/application-df571282a1571f4d8a0cfd0a18e68768.css?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/home-7ff670381d72c6334b9a8f0cb1601674.css?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/company-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/application-7440c5ac59b947470f75af3eb2fc69f9.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-06-15 23:00:05 +0700
+
+
+Started GET "/company/27" for ::1 at 2015-06-15 23:04:58 +0700
+Processing by CompanyController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mCompany Load (0.8ms)[0m  [1mSELECT  "companies".* FROM "companies" WHERE (id = '27')  ORDER BY "companies"."id" ASC LIMIT 1[0m
+  Rendered company/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 70ms (Views: 67.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 23:35:46 +0700
+Processing by HomeController#index as HTML
+  [1m[35mCompany Load (2.2ms)[0m  SELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-15 23:35:46 +0700
+Processing by HomeController#index as HTML
+  [1m[36mCompany Load (1.7ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE (ma_ck in (select ma_ck from company_businesses where ma_nganh =1))[0m
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2015-06-15 23:35:46 +0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.0ms)
+
+
+Started GET "/apple-touch-icon.png" for ::1 at 2015-06-15 23:35:46 +0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.0ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/mc976/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
