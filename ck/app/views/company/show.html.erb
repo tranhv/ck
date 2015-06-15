@@ -1,0 +1,104 @@
+<h2 style="color:green;"><%= @com.ten_cong_ty + " - " + @com.ma_ck %></h2>
+<div class="company_general1">
+	<table style="width:100%">
+		<tr class="tr_1">
+			<td>Sàn</td>
+			<td class="cell_align_right"><%= @com.san_ck %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Giá hiện tại</td>
+			<td class="cell_align_right"><%= @com.gia_hien_tai %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Cao nhất 52 tuần</td>
+			<td class="cell_align_right"><%= @com.cao_nhat_52_tuan %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Thấp nhất 52 tuần</td>
+			<td class="cell_align_right"><%= @com.thap_nhat_52_tuan %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>EPS</td>
+			<td class="cell_align_right"><%= @com.eps %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>PE</td>
+			<td class="cell_align_right"><%= @com.pe %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>ROA</td>
+			<td class="cell_align_right"><%= @com.roa %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>ROE</td>
+			<td class="cell_align_right"><%= @com.roe %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Beta</td>
+			<td class="cell_align_right"><%= @com.beta %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Khối lượng lưu hành</td>
+			<td class="cell_align_right"><%= @com.khoi_luong_luu_hanh %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Khối lượng niêm yết</td>
+			<td class="cell_align_right"><%= @com.khoi_luong_niem_yet %></td>
+		</tr>
+
+	</table>
+</div>
+<div class="company_general2">
+	<table style="width:100%;padding-left: 10px;">
+		<tr class="tr_1">
+			<td>Cổ phiếu quỹ</td>
+			<td class="cell_align_right"><%= @com.co_phieu_quy %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Nước ngoài sở hữu</td>
+			<td class="cell_align_right"><%= @com.nuoc_ngoai_so_huu %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Vốn thị trường</td>
+			<td class="cell_align_right"><%= @com.von_thi_truong %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Doanh Thu (ttm)</td>
+			<td class="cell_align_right"><%= @com.danh_thu_ttm_trieu %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Lợi nhuận sau thếu (ttm)</td>
+			<td class="cell_align_right"><%= @com.lnst_ttm %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Vốn chủ sở hữu</td>
+			<td class="cell_align_right"><%= @com.von_csh %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Tổng nợ</td>
+			<td class="cell_align_right"><%= @com.tong_no %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Tổng tài sản</td>
+			<td class="cell_align_right"><%= @com.tong_tai_san %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Số điện thoại</td>
+			<td class="cell_align_right"><%= @com.dien_thoai %></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Fax</td>
+			<td class="cell_align_right"><%= @com.fax %></td>
+		</tr>
+		<tr class="tr_1">
+			<td>Website</td>
+			<% website = @com.website.include?("http")? @com.website : ("http://" + @com.website)%>
+			<td class="cell_align_right"><%=link_to(@com.website, website)%></td>
+		</tr>
+		<tr class="tr_2">
+			<td>Địa chỉ</td>
+			<td class="cell_align_right"><%= @com.dia_chi %></td>
+		</tr>
+	</table>
+</div>
+
