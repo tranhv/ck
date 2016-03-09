@@ -1,0 +1,52 @@
+class AddIndexForFinacial < ActiveRecord::Migration
+  def change
+    add_column :financial_reports, :f1, :decimal
+    add_column :financial_reports, :f2, :decimal
+    add_column :financial_reports, :f3, :decimal
+    add_column :financial_reports, :f4, :decimal
+    add_column :financial_reports, :f5, :decimal
+    add_column :financial_reports, :f6, :decimal
+    add_column :financial_reports, :f7, :decimal
+    add_column :financial_reports, :f8, :decimal
+    add_column :financial_reports, :f9, :decimal
+    add_column :financial_reports, :f10, :decimal
+    add_column :financial_reports, :f11, :decimal
+    add_column :financial_reports, :f12, :decimal
+    add_column :financial_reports, :f13, :decimal
+    add_column :financial_reports, :f14, :decimal
+    add_column :financial_reports, :f15, :decimal
+    add_column :financial_reports, :f16, :decimal
+    add_column :financial_reports, :v1, :decimal
+    add_column :financial_reports, :v2, :decimal
+    add_column :financial_reports, :v3, :decimal
+    add_column :financial_reports, :v4, :decimal
+    add_column :financial_reports, :v5, :decimal
+    add_column :financial_reports, :v6, :decimal
+    add_column :financial_reports, :v7, :decimal
+    add_column :financial_reports, :v8, :decimal
+    add_column :financial_reports, :v9, :decimal
+    add_column :financial_reports, :v10, :decimal
+    add_column :financial_reports, :v11, :decimal
+    add_column :financial_reports, :v12, :decimal
+    add_column :financial_reports, :v13, :decimal
+    add_column :financial_reports, :v14, :decimal
+    add_column :financial_reports, :v15, :decimal
+    add_column :financial_reports, :v16, :decimal
+    add_column :financial_reports, :z1, :decimal
+    add_column :financial_reports, :z2, :decimal
+    add_column :financial_reports, :z3, :decimal
+    add_column :financial_reports, :z4, :decimal
+    add_column :financial_reports, :z5, :decimal
+    add_column :financial_reports, :z6, :decimal
+    add_column :financial_reports, :z7, :decimal
+    add_column :financial_reports, :z8, :decimal
+    add_column :financial_reports, :z9, :decimal
+    add_column :financial_reports, :z10, :decimal
+    add_column :financial_reports, :z11, :decimal
+    add_column :financial_reports, :z12, :decimal
+    add_column :financial_reports, :z13, :decimal
+    add_column :financial_reports, :z14, :decimal
+    add_column :financial_reports, :z15, :decimal
+    add_column :financial_reports, :z16, :decimal
+  end
+end

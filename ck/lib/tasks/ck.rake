@@ -5,6 +5,15 @@ require 'zip'
 
 namespace :ck do
 
+  desc "new app"
+  task :full_app => :environment do
+    puts "Importing full data"
+    `rake ck:import_stock_daily_full`
+    `rake ck:import_financial`
+    `rake ck:import_data`
+    puts "Imported full data"
+  end
+
   desc "import stock daily full"
   task :import_stock_daily_full => :environment do
     p "import stock daily - #{Time.now}"
@@ -102,6 +111,12 @@ namespace :ck do
   desc "Import data"
   task :import_data => :environment do
     puts "Import Data"
+
+    sql = <<-SQL
+      truncate company_businesses;
+      truncate businesses;
+      truncate companies; 
+    SQL
     
     #import company_businesses
     File.readlines("#{Rails.root}/db/cong_ty_nganh.txt").each do |l|
