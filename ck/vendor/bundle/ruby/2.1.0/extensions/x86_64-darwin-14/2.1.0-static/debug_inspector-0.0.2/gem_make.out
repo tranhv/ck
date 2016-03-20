@@ -1,0 +1,16 @@
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/hvt/.rbenv/versions/2.1.3/bin/ruby -r ./siteconf20160117-29756-227v2t.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20160117-29756-lvze1x
+installing default debug_inspector libraries

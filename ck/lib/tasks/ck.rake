@@ -139,7 +139,50 @@ namespace :ck do
       com.ma_ck,com.san_ck,com.gia_hien_tai,com.gia_so_sach,com.p_d,com.cao_nhat_52_tuan,com.thap_nhat_52_tuan,com.eps,com.pe,com.roa,com.roe,com.beta,com.khoi_luong_luu_hanh,com.khoi_luong_niem_yet,com.co_phieu_quy,com.nuoc_ngoai_so_huu,com.von_thi_truong,com.danh_thu_ttm_trieu,com.lnst_ttm,com.von_csh,com.tong_no,com.tong_tai_san,com.ten_cong_ty,com.ten_quoc_te,com.dia_chi,com.dien_thoai,com.fax,com.website = l.gsub("\n","").split("\t")
       com.save
     end
+  end
 
+  task :calc_index => :environment do
+    
+    #update f1 .. f16
+    sql = <<-SQL
+    update financial_reports
+    set f1 = round((case when net_sales != 0 then  profit_after_corporate_income_tax/net_sales else null end)::decimal,5),
+    f2 = round((case when total_assets != 0 then  profit_after_corporate_income_tax/total_assets else null end)::decimal,5),
+    f3 = round((case when total_assets != 0 then  total_profit_before_tax/total_assets else null end)::decimal,5),
+    f4 = round((case when total_assets != 0 then  (profit_after_corporate_income_tax - other_profits)/total_assets else null end)::decimal,5),
+    f5 = round((case when owners_equity != 0 then  (profit_after_corporate_income_tax - other_profits)/owners_equity else null end)::decimal,5),
+    f6 = round((case when short_term_liabilities != 0 then  cash_and_cash_euivalents/short_term_liabilities else null end)::decimal,5),
+    f7 = round((case when total_assets != 0 then  net_sales/total_assets else null end)::decimal,5),
+    f8 = round((case when inventory != 0 then  cost_of_goods_sold/inventory else null end)::decimal,5),
+    f9 = round((case when net_sales != 0 then  (short_term_account_receivables+long_term_account_receivable)/net_sales else null end)::decimal,5),
+    f10 = round((case when owners_equity != 0 then  liabilities/owners_equity else null end)::decimal,5),
+    f11 = round((case when owners_equity != 0 then  total_assets/owners_equity else null end)::decimal,5),
+    f12 = round((case when total_assets != 0 then  long_term_liabilities/total_assets else null end)::decimal,5),
+    f13 = round((case when total_assets != 0 then  liabilities/total_assets else null end)::decimal,5),
+    f14 = round((case when short_term_liabilities != 0 then  current_assets/short_term_liabilities else null end)::decimal,5),
+    f15 = round((case when short_term_liabilities != 0 then  (current_assets - inventory)/short_term_liabilities else null end)::decimal,5),
+    f16 = round((case when total_assets != 0 then  cash_and_cash_euivalents/total_assets else null end)::decimal,5);
+    SQL 
+    
+    #Find years and quater
+    # years = [{"year" => "2013", "quater" => "nil"}, {"year" => "2013", "quater" => "1"}
+    years = FinancialReport.select("distinct year, quater").order("year, quater").map{ |e| {"year" => e.year,"quater" => e.quater}}
+    
+    years.each do |year|
+      count = FinancialReport.where(:year => year["year"], :quater => year["quater"]).count
+      averages = FinancialReport.where(:year => year["year"], :quater => year["quater"]).average("f1")
+      variance = 
+
+
+    end    
+  end
+
+  def method_name
+    
+  end
+
+  def method_name
+    
   end
 
 end

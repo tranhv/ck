@@ -1,0 +1,16 @@
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/hvt/.rbenv/versions/2.1.3/bin/ruby -r ./siteconf20160117-29756-nifvf7.rb extconf.rb
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/hvt/Google Drive/cao_hoc/03_luan_van/03_code/ck_git/ck/vendor/bundle/ruby/2.1.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

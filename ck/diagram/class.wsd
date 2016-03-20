@@ -1,0 +1,106 @@
+@startuml
+set namespaceSeparator ::
+
+class CK::Company {
+  + {static} id
+  + {static} ma_ck
+  + {static} san_ck
+  + {static} gia_hien_tai
+  + {static} gia_so_sach
+  + {static} p_d
+  + {static} cao_nhat_52_tuan
+  + {static} thap_nhat_52_tuan
+  + {static} eps
+  + {static} pe
+  + {static} roa
+  + {static} roe
+  + {static} beta
+  + {static} khoi_luong_luu_hanh
+  + {static} khoi_luong_niem_yet
+  + {static} co_phieu_quy
+  + {static} nuoc_ngoai_so_huu
+  + {static} von_thi_truong
+  + {static} danh_thu_ttm_trieu
+  + {static} lnst_ttm
+  + {static} von_csh
+  + {static} tong_no
+  + {static} tong_tai_san
+  + {static} ten_cong_ty
+  + {static} ten_quoc_te
+  + {static} dia_chi
+  + {static} dien_thoai
+  + {static} fax
+  + {static} website
+}
+
+class CK::Business{
+  + {static} ma_nganh
+  + {static} ten_nganh
+}
+
+class CK::Stock{
+  + {static} ticker  
+  + {static} date
+  + {static} open    
+  + {static} high    
+  + {static} low     
+  + {static} close
+  + {static} volume    
+}
+
+class CK::Financial_Report{
+  + {static} ticker
+  + {static} year
+  + {static} quater
+  + {static} current_assets
+  + {static} cash_and_cash_euivalents
+  + {static} short_term_financial_investment
+  + {static} short_term_account_receivables
+  + {static} inventory
+  + {static} other_current_assets
+  + {static} non_current_assets
+  + {static} long_term_account_receivable
+  + {static} fixed_assets
+  + {static} loi_the_thuong_mai
+  + {static} real_estate_investment
+  + {static} long_term_finacial_investments
+  + {static} other_long_term_assets
+  + {static} total_assets
+  + {static} liabilities
+  + {static} short_term_liabilities
+  + {static} long_term_liabilities
+  + {static} owners_equity
+  + {static} loi_ich_co_dong_thieu_so
+  + {static} total_equity
+  + {static} gross_sale_revenues
+  + {static} deduction_revenues
+  + {static} net_sales
+  + {static} cost_of_goods_sold
+  + {static} gross_profit
+  + {static} financial_activities_revenues
+  + {static} financial_expenses
+  + {static} selling_expenses
+  + {static} managing_expenses
+  + {static} net_profit_from_operating_activities
+  + {static} other_incomes
+  + {static} other_expenses
+  + {static} other_profits
+  + {static} total_profit_before_tax
+  + {static} profit_after_corporate_income_tax
+  + {static} ebitda
+}
+
+class CK::Company_Business{
+  + {static} ma_ck
+  + {static} ma_nganh
+}
+
+
+CK::Company "0..*" -- "1" CK::Business
+CK::Company "1" -- "0..*" CK::Financial_Report
+CK::Company "1" -- "0..*" CK::Stock
+
+
+
+@enduml
+
