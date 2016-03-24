@@ -170,7 +170,9 @@ namespace :ck do
     
     years.each do |year|
       count = FinancialReport.where(:year => year["year"], :quater => year["quater"]).count
-      averages = FinancialReport.where(:year => year["year"], :quater => year["quater"]).average("f1")
+      averages = FinancialReport.where(:year => year["year"], :quater => year["quater"]).select("AVG(f1) avg_f1,AVG(f2) avg_f2,AVG(f3) avg_f4,AVG(f5) avg_f5,AVG(f6) avg_f6,AVG(f7) avg_f7,AVG(f8) avg_f8,AVG(f9) avg_f9,AVG(f10) avg_f10,AVG(f11) avg_f11,AVG(f12) avg_f13,AVG(f14) avg_f14,AVG(f15) avg_f15,AVG(f16) avg_f16")
+      averages = 
+      
       variance = 
 
 
@@ -180,6 +182,26 @@ namespace :ck do
   def method_name
     
   end
+
+  def mean(x)
+  sum=0
+  x.each {|v| sum += v}
+  sum/x.size
+end
+def variance(x)
+  m = mean(x)
+  sum =0.0
+  x.each {|v| sum += (v-m)**2 }
+  sum/x.size
+end
+
+def test 
+  
+  data = [2,3,2,2,3,4,5,5,4,3,4,1,2 ]
+
+  puts variance(data)  # 1.461538462
+
+end
 
   def method_name
     
