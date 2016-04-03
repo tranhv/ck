@@ -1,5 +1,6 @@
 class AddIndexForFinacial < ActiveRecord::Migration
   def change
+    add_column :financial_reports, :time, :text, after: :ticker
     add_column :financial_reports, :f1, :decimal
     add_column :financial_reports, :f2, :decimal
     add_column :financial_reports, :f3, :decimal
@@ -16,22 +17,22 @@ class AddIndexForFinacial < ActiveRecord::Migration
     add_column :financial_reports, :f14, :decimal
     add_column :financial_reports, :f15, :decimal
     add_column :financial_reports, :f16, :decimal
-    add_column :financial_reports, :v1, :decimal
-    add_column :financial_reports, :v2, :decimal
-    add_column :financial_reports, :v3, :decimal
-    add_column :financial_reports, :v4, :decimal
-    add_column :financial_reports, :v5, :decimal
-    add_column :financial_reports, :v6, :decimal
-    add_column :financial_reports, :v7, :decimal
-    add_column :financial_reports, :v8, :decimal
-    add_column :financial_reports, :v9, :decimal
-    add_column :financial_reports, :v10, :decimal
-    add_column :financial_reports, :v11, :decimal
-    add_column :financial_reports, :v12, :decimal
-    add_column :financial_reports, :v13, :decimal
-    add_column :financial_reports, :v14, :decimal
-    add_column :financial_reports, :v15, :decimal
-    add_column :financial_reports, :v16, :decimal
+    add_column :financial_reports, :v1, :text
+    add_column :financial_reports, :v2, :text
+    add_column :financial_reports, :v3, :text
+    add_column :financial_reports, :v4, :text
+    add_column :financial_reports, :v5, :text
+    add_column :financial_reports, :v6, :text
+    add_column :financial_reports, :v7, :text
+    add_column :financial_reports, :v8, :text
+    add_column :financial_reports, :v9, :text
+    add_column :financial_reports, :v10, :text
+    add_column :financial_reports, :v11, :text
+    add_column :financial_reports, :v12, :text
+    add_column :financial_reports, :v13, :text
+    add_column :financial_reports, :v14, :text
+    add_column :financial_reports, :v15, :text
+    add_column :financial_reports, :v16, :text
     add_column :financial_reports, :z1, :decimal
     add_column :financial_reports, :z2, :decimal
     add_column :financial_reports, :z3, :decimal
@@ -48,5 +49,21 @@ class AddIndexForFinacial < ActiveRecord::Migration
     add_column :financial_reports, :z14, :decimal
     add_column :financial_reports, :z15, :decimal
     add_column :financial_reports, :z16, :decimal
+    add_column :financial_reports, :t1, :text
+    add_column :financial_reports, :t2, :text
+    add_column :financial_reports, :t3, :text
+    add_column :financial_reports, :t4, :text
+    add_column :financial_reports, :t5, :text
+    add_column :financial_reports, :t6, :text
+    add_column :financial_reports, :t7, :text
+    add_column :financial_reports, :t8, :text
+    add_column :financial_reports, :t9, :text
+    add_column :financial_reports, :t10, :text
+    add_column :financial_reports, :t11, :text
+    add_column :financial_reports, :t12, :text
+    add_column :financial_reports, :t13, :text
+    add_column :financial_reports, :t14, :text
+    add_column :financial_reports, :t15, :text
+    add_column :financial_reports, :t16, :text
   end
 end
