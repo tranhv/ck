@@ -1,7 +1,7 @@
 @startuml
 set namespaceSeparator ::
 
-class CK::Company {
+class CK::Companies{
   + {static} id
   + {static} ma_ck
   + {static} san_ck
@@ -33,12 +33,12 @@ class CK::Company {
   + {static} website
 }
 
-class CK::Business{
+class CK::Businesses{
   + {static} ma_nganh
   + {static} ten_nganh
 }
 
-class CK::Stock{
+class CK::Stocks{
   + {static} ticker  
   + {static} date
   + {static} open    
@@ -48,7 +48,7 @@ class CK::Stock{
   + {static} volume    
 }
 
-class CK::Financial_Report{
+class CK::Financial_Reports{
   + {static} ticker
   + {static} year
   + {static} quater
@@ -90,15 +90,15 @@ class CK::Financial_Report{
   + {static} ebitda
 }
 
-class CK::Company_Business{
+class CK::Company_Businesses{
   + {static} ma_ck
   + {static} ma_nganh
 }
 
 
-CK::Company "0..*" -- "1" CK::Business
-CK::Company "1" -- "0..*" CK::Financial_Report
-CK::Company "1" -- "0..*" CK::Stock
+CK::Companies "0..*" -- "1" CK::Businesses
+CK::Companies "1" -- "0..*" CK::Financial_Reports
+CK::Companies "1" -- "0..*" CK::Stocks
 
 
 
