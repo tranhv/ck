@@ -71,41 +71,41 @@ f16 = round((case when total_assets != 0 then  cash_and_cash_euivalents/total_as
 
 
 update financial_reports
-set f1 =round( (select sum( f1 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f2 =round( (select sum( f2 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f3 =round( (select sum( f3 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f4 =round( (select sum( f4 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f5 =round( (select sum( f5 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f6 =round( (select sum( f6 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f7 =round( (select sum( f7 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f8 =round( (select sum( f8 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f9 =round( (select sum( f9 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f10 =round( (select sum( f10 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f11 =round( (select sum( f11 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f12 =round( (select sum( f12 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f13 =round( (select sum( f13 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f14 =round( (select sum( f14 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f15 =round( (select sum( f15 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5),
-f16 =round( (select sum( f16 )/(select count(*) - 2 from financial_reports) from financial_reports where ticker != 'TrungBinh')::decimal,5)
+set f1 =round( (select sum( f1 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f2 =round( (select sum( f2 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f3 =round( (select sum( f3 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f4 =round( (select sum( f4 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f5 =round( (select sum( f5 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f6 =round( (select sum( f6 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f7 =round( (select sum( f7 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f8 =round( (select sum( f8 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f9 =round( (select sum( f9 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f10 =round( (select sum( f10 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f11 =round( (select sum( f11 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f12 =round( (select sum( f12 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f13 =round( (select sum( f13 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f14 =round( (select sum( f14 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f15 =round( (select sum( f15 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5),
+f16 =round( (select sum( f16 )/(select count(*) - 6 from financial_reports) from financial_reports where time is not null)::decimal,5)
 where ticker = 'TrungBinh';
 
 update financial_reports
-set f1 =round( (select variance( f1 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f2 =round( (select variance( f2 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f3 =round( (select variance( f3 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f4 =round( (select variance( f4 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f5 =round( (select variance( f5 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f6 =round( (select variance( f6 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f7 =round( (select variance( f7 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f8 =round( (select variance( f8 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f9 =round( (select variance( f9 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f10 =round( (select variance( f10 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f11 =round( (select variance( f11 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f12 =round( (select variance( f12 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f13 =round( (select variance( f13 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f14 =round( (select variance( f14 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f15 =round( (select variance( f15 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5),
-f16 =round( (select variance( f16 ) from financial_reports where ticker != 'TrungBinh' and ticker != 'PhuongSai')::decimal,5)
+set f1 =round( (select variance( f1 ) from financial_reports where time is not null)::decimal,5),
+f2 =round( (select variance( f2 ) from financial_reports where time is not null)::decimal,5),
+f3 =round( (select variance( f3 ) from financial_reports where time is not null)::decimal,5),
+f4 =round( (select variance( f4 ) from financial_reports where time is not null)::decimal,5),
+f5 =round( (select variance( f5 ) from financial_reports where time is not null)::decimal,5),
+f6 =round( (select variance( f6 ) from financial_reports where time is not null)::decimal,5),
+f7 =round( (select variance( f7 ) from financial_reports where time is not null)::decimal,5),
+f8 =round( (select variance( f8 ) from financial_reports where time is not null)::decimal,5),
+f9 =round( (select variance( f9 ) from financial_reports where time is not null)::decimal,5),
+f10 =round( (select variance( f10 ) from financial_reports where time is not null)::decimal,5),
+f11 =round( (select variance( f11 ) from financial_reports where time is not null)::decimal,5),
+f12 =round( (select variance( f12 ) from financial_reports where time is not null)::decimal,5),
+f13 =round( (select variance( f13 ) from financial_reports where time is not null)::decimal,5),
+f14 =round( (select variance( f14 ) from financial_reports where time is not null)::decimal,5),
+f15 =round( (select variance( f15 ) from financial_reports where time is not null)::decimal,5),
+f16 =round( (select variance( f16 ) from financial_reports where time is not null)::decimal,5)
 where ticker = 'PhuongSai';
 
 
@@ -166,6 +166,26 @@ z14 = (select min( z14) from financial_reports where time is not null),
 z15 = (select min( z15) from financial_reports where time is not null),
 z16 = (select min( z16 ) from financial_reports where time is not null)
 where ticker = 'Min';
+
+update financial_reports
+set
+z1 = (select max( z1) from financial_reports where time is not null),
+z2 = (select max( z2) from financial_reports where time is not null),
+z3 = (select max( z3) from financial_reports where time is not null),
+z4 = (select max( z4) from financial_reports where time is not null),
+z5 = (select max( z5) from financial_reports where time is not null),
+z6 = (select max( z6) from financial_reports where time is not null),
+z7 = (select max( z7) from financial_reports where time is not null),
+z8 = (select max( z8) from financial_reports where time is not null),
+z9 = (select max( z9) from financial_reports where time is not null),
+z10 = (select max( z10) from financial_reports where time is not null),
+z11 = (select max( z11) from financial_reports where time is not null),
+z12 = (select max( z12) from financial_reports where time is not null),
+z13 = (select max( z13) from financial_reports where time is not null),
+z14 = (select max( z14) from financial_reports where time is not null),
+z15 = (select max( z15) from financial_reports where time is not null),
+z16 = (select max( z16 ) from financial_reports where time is not null)
+where ticker = 'Max';
 
 update financial_reports 
 set
