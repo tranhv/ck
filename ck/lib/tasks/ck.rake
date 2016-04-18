@@ -61,7 +61,7 @@ namespace :ck do
     sql = <<-SQL
       truncate financial_reports;
       copy financial_reports(ticker,year,quater,current_assets,cash_and_cash_euivalents,short_term_financial_investment,short_term_account_receivables,inventory,other_current_assets,non_current_assets,long_term_account_receivable,fixed_assets,loi_the_thuong_mai,real_estate_investment,long_term_finacial_investments,other_long_term_assets,total_assets,liabilities,short_term_liabilities,long_term_liabilities,owners_equity,loi_ich_co_dong_thieu_so,total_equity,gross_sale_revenues,deduction_revenues,net_sales,cost_of_goods_sold,gross_profit,financial_activities_revenues,financial_expenses,selling_expenses,managing_expenses,net_profit_from_operating_activities,other_incomes,other_expenses,other_profits,total_profit_before_tax,profit_after_corporate_income_tax,ebitda)
-      from '#{Rails.root}/data/bao_cao_tai_chinh_20150430.txt' delimiter '\t' CSV header;;
+      from '#{Rails.root}/data/bao_cao_tai_chinh_20160419.txt' delimiter '\t' CSV header;
     SQL
     ActiveRecord::Base.connection.execute(sql)
   end
@@ -138,11 +138,11 @@ namespace :ck do
   end
 
   task :calc_index => :environment do
-    `psql -U postgres -d ck_development -v -f ./db/partition_index_finanacial.sql`
-    `psql -U postgres -d ck_development -v table_name='financial_reports_2012' -f ./db/build_index_financial.sql`
-    `psql -U postgres -d ck_development -v table_name='financial_reports_2013' -f ./db/build_index_financial.sql`
-    `psql -U postgres -d ck_development -v table_name='financial_reports_2014' -f ./db/build_index_financial.sql`
-    `psql -U postgres -d ck_development -v table_name='financial_reports_2015' -f ./db/build_index_financial.sql`
+    `psql -U postgres -d ck_development -f ./db/partition_index_finanacial.sql`
+    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2012' -f ./db/build_index_financial.sql`
+    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2013' -f ./db/build_index_financial.sql`
+    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2014' -f ./db/build_index_financial.sql`
+    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2015' -f ./db/build_index_financial.sql`
 
   end
 
