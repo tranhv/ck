@@ -138,11 +138,11 @@ namespace :ck do
   end
 
   task :calc_index => :environment do
-    `psql -U postgres -d ck_development -f ./db/partition_index_finanacial.sql`
-    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2012' -f ./db/build_index_financial.sql`
-    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2013' -f ./db/build_index_financial.sql`
-    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2014' -f ./db/build_index_financial.sql`
-    #{}`psql -U postgres -d ck_development -v table_name='financial_reports_2015' -f ./db/build_index_financial.sql`
+    `psql -U postgres -d ck_development -f db/partition_financial_report.sql`
+    `psql -U postgres -d ck_development -v table_name='financial_reports_2012' -f ./db/build_index_financial.sql`
+    `psql -U postgres -d ck_development -v table_name='financial_reports_2013' -f ./db/build_index_financial.sql`
+    `psql -U postgres -d ck_development -v table_name='financial_reports_2014' -f ./db/build_index_financial.sql`
+    `psql -U postgres -d ck_development -v table_name='financial_reports_2015' -f ./db/build_index_financial.sql`
 
   end
 
