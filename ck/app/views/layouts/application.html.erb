@@ -13,11 +13,13 @@
     <h2>Real Estate</h2>
     <h2>HOSE - HNX (HASTC)</h2>
     <ul>
-    <li><a href="/">Home</a></li>
+<!--     <li><a href="/">Home</a></li>
     <li><a href="/">Companies</a></li>
-    <li><a href="">Association rules</a></li>
+    <li><a href="association_rule/index">Association rules</a></li>
     <li><a href="">Conclutions</a></li>
-    <li><a href="/about">About</a></li>
+ -->
+      <li> <%= link_to "Companies", root_path %> </li>
+      <li> <%= link_to "Rules", :controller => :association_rules, :action => :index %> </li>
     </ul>
     <hr>
   </div>
@@ -25,7 +27,7 @@
     <%= yield %>
   </div>
   <div id="bottom">
-    @hvt 2015
+    @hvt 2016
   </div>
 </div>
 </body>

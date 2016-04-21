@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'association_rules/index'
+
   get 'company/index'
 
   root 'home#index'

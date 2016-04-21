@@ -101,4 +101,12 @@
 		</tr>
 	</table>
 </div>
+<div>
+	<h3 style="color:red;"> Báo cáo tài chính qua các năm</h3>
+	<% @data.each do |year, fins|%>
+	<%fins.each do |fin| %>
+	<%= fin["current_assets"] %>
+	<% end %>
+	<% end %>
+</div>
 

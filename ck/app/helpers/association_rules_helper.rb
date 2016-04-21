@@ -1,0 +1,2 @@
+module AssociationRulesHelper
+end

@@ -1,21 +1,21 @@
 @relation financial_reports_2014.symbolic
 
-@attribute v1 {very_low, low, middle, high, very_high}
-@attribute v2 {very_low, low, middle, high, very_high}
-@attribute v3 {very_low, low, middle, high, very_high}
-@attribute v4 {very_low, low, middle, high, very_high}
-@attribute v5 {very_low, low, middle, high, very_high}
-@attribute v6 {very_low, low, middle, high, very_high}
-@attribute v7 {very_low, low, middle, high, very_high}
-@attribute v8 {very_low, low, middle, high, very_high}
-@attribute v9 {very_low, low, middle, high, very_high}
-@attribute v10 {very_low, low, middle, high, very_high}
-@attribute v11 {very_low, low, middle, high, very_high}
-@attribute v12 {very_low, low, middle, high, very_high}
-@attribute v13 {very_low, low, middle, high, very_high}
-@attribute v14 {very_low, low, middle, high, very_high}
-@attribute v15 {very_low, low, middle, high, very_high}
-@attribute v16 {very_low, low, middle, high, very_high}
+@attribute v1 {very_low,low,middle,high,very_high}
+@attribute v2 {very_low,low,middle,high,very_high}
+@attribute v3 {very_low,low,middle,high,very_high}
+@attribute v4 {very_low,low,middle,high,very_high}
+@attribute v5 {very_low,low,middle,high,very_high}
+@attribute v6 {very_low,low,middle,high,very_high}
+@attribute v7 {very_low,low,middle,high,very_high}
+@attribute v8 {very_low,low,middle,high,very_high}
+@attribute v9 {very_low,low,middle,high,very_high}
+@attribute v10 {very_low,low,middle,high,very_high}
+@attribute v11 {very_low,low,middle,high,very_high}
+@attribute v12 {very_low,low,middle,high,very_high}
+@attribute v13 {very_low,low,middle,high,very_high}
+@attribute v14 {very_low,low,middle,high,very_high}
+@attribute v15 {very_low,low,middle,high,very_high}
+@attribute v16 {very_low,low,middle,high,very_high}
 
 @data
 middle,high,high,high,high,very_high,very_high,high,middle,low,low,middle,low,middle,high,very_high
@@ -26,7 +26,7 @@ very_low,low,low,middle,middle,high,very_high,very_high,low,low,low,very_low,low
 high,very_high,very_high,very_high,very_high,very_high,high,middle,low,high,high,very_high,high,high,high,very_high
 middle,middle,middle,low,low,very_high,low,middle,high,middle,middle,high,middle,high,high,high
 low,middle,middle,middle,middle,high,high,high,middle,high,high,very_high,high,high,very_high,middle
-low,high,high,high,high,middle,very_high,,very_low,very_low,very_low,very_low,very_low,very_low,middle,high
+low,high,high,high,high,middle,very_high,?,very_low,very_low,very_low,very_low,very_low,very_low,middle,high
 low,very_low,very_low,low,low,middle,low,low,middle,middle,middle,middle,middle,middle,very_low,middle
 very_high,very_high,very_high,very_high,very_high,very_high,high,middle,middle,middle,middle,low,middle,low,high,very_high
 very_high,high,high,high,high,middle,low,high,very_high,high,high,very_high,high,very_low,middle,middle
@@ -34,7 +34,7 @@ middle,middle,middle,middle,middle,middle,high,middle,low,low,low,low,low,middle
 high,very_high,very_high,very_high,very_high,high,very_high,high,very_low,middle,middle,very_low,middle,low,middle,very_high
 middle,low,low,low,low,low,low,middle,very_high,middle,middle,middle,middle,middle,high,low
 low,very_high,high,very_high,very_high,middle,very_high,very_high,very_low,very_high,very_high,low,very_high,very_low,low,high
-very_low,very_low,very_low,very_low,very_low,very_high,low,,very_low,very_low,very_low,very_low,very_low,high,very_high,low
+very_low,very_low,very_low,very_low,very_low,very_high,low,?,very_low,very_low,very_low,very_low,very_low,high,very_high,low
 very_high,very_high,very_high,very_high,very_high,middle,middle,middle,high,very_high,very_high,very_high,very_high,very_high,very_high,low
 very_high,high,high,high,high,low,middle,low,very_high,middle,middle,middle,middle,middle,low,middle
 very_high,middle,middle,middle,low,low,very_low,very_low,very_high,very_low,very_low,low,very_low,high,high,very_low
