@@ -10,7 +10,7 @@ class AssociationRule
 
   def self.build(path = '')
     #return if path = './data/financial_reports_2012.arff'
-
+puts "path ==> #{path}"
     dir = "./lib/weka.jar"
     Rjb::load(dir, jvmargs=["-Xmx500M"])
     obj = Rjb::import("weka.associations.Apriori")

@@ -37,3 +37,12 @@ function change_san () {
     window.location.href = main_url;
   };
 }
+
+function change_nam() {
+  san_id = $('#nam').val();
+  if (san_id != 'ALL') {
+    window.location.href = main_url + "?nam_id=" + san_id;
+  } else{
+    window.location.href = main_url;
+  };
+}

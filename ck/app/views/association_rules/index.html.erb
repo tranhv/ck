@@ -1,1 +1,12 @@
 <h2 style="color:green;">Luật kết hợp</h2>
+  <%= select_tag "nam", options_for_select(@nam,1),{:onchange => "change_nam();"} %>
+
+<script type="text/javascript">
+var main_url = "<%= url_for :controller => 'assocition_rules', :action => 'index'%>";
+var select_nam = GetURLParameter('nam_id');
+$('#nam').val(select_san).prop('selected',true);
+if (!select_san) {
+$('#nam').val("ALL").prop('selected',true);
+}
+</script>
+
