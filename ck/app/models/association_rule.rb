@@ -1,16 +1,40 @@
 class AssociationRule
   require "rjb"
 
+    INDEX_HEADER = {
+    "v1" => "NetIncome/sales",
+    "v2" => "NetIncome/assets",
+    "v3" => "EarningbeforeInterestandtaxes/assets",
+    "v4" => "Netincomebeforeextraordinaryitems/assets",
+    "v5" => "Netincomebeforeextraordinaryitems/stockholdersequity",
+    "v6" => "Cash/currentliabilities",
+    "v7" => "Sales/Assets",
+    "v8" => "Costofgoodsold/inventory",
+    "v9" => "Accountreceivable/sales",
+    "v10" => "Liabilities/stockholdersequity",
+    "v11" => "Assets/stockholdersequity",
+    "v12" => "Longtermdebt/assets",
+    "v13" => "Liabilities/Assets",
+    "v14" => "Currentassets/currentliabilities",
+    "v15" => "Quickassets/currentliabilities",
+    "v16" => "Cash/assets"}
+
   def self.build_rule(year)
     table_name = "financial_reports_#{year}"
     rules = AssociationRule.build("#{Rails.root}/data/#{table_name}.arff")
-    puts "rules => #{rules.inspect}"
+    rules.split("\n").reject {|e| e.empty?}
+  end
+
+  def self.get_rules(rules)
+    rules.last(10).map { |e| e.strip }
+  end
+
+  def parse_rules(rule)
+      
   end
 
 
   def self.build(path = '')
-    #return if path = './data/financial_reports_2012.arff'
-puts "path ==> #{path}"
     dir = "./lib/weka.jar"
     Rjb::load(dir, jvmargs=["-Xmx500M"])
     obj = Rjb::import("weka.associations.Apriori")
@@ -35,7 +59,7 @@ puts "path ==> #{path}"
     assc.setVerbose(false)
 
     assc.buildAssociations(financial_data)
-    puts "data #{assc.rules}"
+    assc.toString
   end
 
   def self.export_arff(table_name)

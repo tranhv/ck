@@ -1,11 +1,17 @@
 <h2 style="color:green;">Luật kết hợp</h2>
-  <%= select_tag "nam", options_for_select(@nam,1),{:onchange => "change_nam();"} %>
+  <%= select_tag "nam", options_for_select(@year,1),{:onchange => "change_nam();"} %>
+
+</br>
+<% @rules.each do |rule| %>
+	<h3 style="color:brown;"><%= rule %></h3>
+<%end%>
+
 
 <script type="text/javascript">
-var main_url = "<%= url_for :controller => 'assocition_rules', :action => 'index'%>";
+var main_url = "<%= url_for :controller => 'association_rules', :action => 'index'%>";
 var select_nam = GetURLParameter('nam_id');
-$('#nam').val(select_san).prop('selected',true);
-if (!select_san) {
+$('#nam').val(select_nam).prop('selected',true);
+if (!select_nam) {
 $('#nam').val("ALL").prop('selected',true);
 }
 </script>
