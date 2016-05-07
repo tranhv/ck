@@ -2,22 +2,23 @@ class AssociationRule
   require "rjb"
 
     INDEX_HEADER = {
-    "v1" => "NetIncome/sales",
-    "v2" => "NetIncome/assets",
-    "v3" => "EarningbeforeInterestandtaxes/assets",
-    "v4" => "Netincomebeforeextraordinaryitems/assets",
-    "v5" => "Netincomebeforeextraordinaryitems/stockholdersequity",
-    "v6" => "Cash/currentliabilities",
-    "v7" => "Sales/Assets",
-    "v8" => "Costofgoodsold/inventory",
-    "v9" => "Accountreceivable/sales",
-    "v10" => "Liabilities/stockholdersequity",
-    "v11" => "Assets/stockholdersequity",
-    "v12" => "Longtermdebt/assets",
-    "v13" => "Liabilities/Assets",
-    "v14" => "Currentassets/currentliabilities",
-    "v15" => "Quickassets/currentliabilities",
-    "v16" => "Cash/assets"}
+    "v1" => "NetIncome/sales - Lợi nhuận ròng/Doanh thu ròng",
+    "v2" => "NetIncome/assets - Lợi nhuận ròng/Tổng tài sản",
+    "v3" => "EarningbeforeInterestandtaxes/assets - Tổng lợi nhuận trước thuế/ Tổng tài sản",
+    "v4" => "Netincomebeforeextraordinaryitems/assets - (Lợi nhuận trước thuế + Lợi nhuận khác)/Tổng tài sản",
+    "v5" => "Netincomebeforeextraordinaryitems/stockholdersequity - (Lợi nhuận trước thuế + Lợi nhuận khác)/Tổng số",
+    "v6" => "Cash/currentliabilities - Tổng tiền mặt/Nợ ngắn hạn",
+    "v7" => "Sales/Assets - Tổng danh thu/Tổng tài sản",
+    "v8" => "Costofgoodsold/inventory - Giá vốn bán hàng/Hàng tồn kho",
+    "v9" => "Accountreceivable/sales - Tiềng thu được từ khách hàng/Tổng danh thu",
+    "v10" => "Liabilities/stockholdersequity - Tổng nợ/Tổng vốn cổ động",
+    "v11" => "Assets/stockholdersequity - Tổng tài sản/Vốn cổ đông",
+    "v12" => "Longtermdebt/assets - Nợ dài hạn/Vốn cổ đông",
+    "v13" => "Liabilities/Assets - Tổng số nợ/Tổng tài sản",
+    "v14" => "Currentassets/currentliabilities - Tài sản hiện tại/Nợ hiện tại",
+    "v15" => "Quickassets/currentliabilities - Tài sản quy đổi tiền mặt nhanh/ Nợ hiện hành",
+    "v16" => "Cash/assets - Tổng tiền mặt/Tổng tài sản",
+    }
 
   def self.build_rule(year)
     table_name = "financial_reports_#{year}"
@@ -26,13 +27,22 @@ class AssociationRule
   end
 
   def self.get_rules(rules)
-    rules.last(10).map { |e| e.strip }
+    rule_array = []
+    rules = rules.last(10).map { |e| e.strip }
+    rules.each_with_index do |e, index|
+        rule_array << self.parse_rules(e)
+    end
+    rule_array
+
   end
 
-  def parse_rules(rule)
-      
+  def self.parse_rules(rule)
+    arr = rule.split(" ")
+    [arr[1],arr[4]].map { |e|  
+        tmp = e.split("=")
+        {INDEX_HEADER[tmp[0]] => tmp[1]}
+    }
   end
-
 
   def self.build(path = '')
     dir = "./lib/weka.jar"

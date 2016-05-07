@@ -1,18 +1,159 @@
-<h2 style="color:green;">Luật kết hợp</h2>
+<h2 style="color:green;">Báo cáo tài chính theo năm</h2>
   <%= select_tag "nam", options_for_select(@year,1),{:onchange => "change_nam();"} %>
 
-</br>
-<% @rules.each do |rule| %>
-	<h3 style="color:brown;"><%= rule %></h3>
-<%end%>
+  <table border="0" cellspacing="0" cellpadding="3">
+      <tr class="tr_header">
+        <th class="index" title="">No.</th>
+        <th class="index" title="">Mã</th>
+        <th class="index" title="">Năm</th>
 
+        <th class="index">Tài sản hiện tại</th>
+        <th class="index">Tiền và các khoản tương đương tiền</th>
+        <th class="index">Đầu tư ngắn hạn</th>
+        <th class="index">Các khoản phải thu ngắn hạn</th>
+        <th class="index">Hàng Tồn Kho</th>
+        <th class="index">Tài sản ngắn hạn khác</th>
+        <th class="index">Không phải tài sản</th>
+        <th class="index">Các khoản phải thu dài hạn</th>
+        <th class="index">Tài sản cố định</th>
+        <th class="index">Lợi thế thương mại</th>
+        <th class="index">Bất động sản đầu tư</th>
+        <th class="index">Đầu tư tài chính dài hạn</th>
+        <th class="index">Tổng tài sản dài hạn khác</th>
+        <th class="index">Tổng tài sản</th>
+        <th class="index">Tổng nợ</th>
+        <th class="index">Nợ ngắn hạn</th>
+        <th class="index">Nợ dài hạn</th>
+        <th class="index">Vốn chủ sở hữu</th>
+        <th class="index">Lợi ích cổ đông tối thiểu</th>
+        <th class="index">Tổng thu nhập từ việc bán hàng </th>
+        <th class="index">Khoản giảm trừ</th>
+        <th class="index">Doanh thu thuần</th>
+        <th class="index">Giá vốn bán hàng</th>
+        <th class="index">Lợi nhuận gộp</th>
+        <th class="index">Tổng danh thoan thu hoạt động tài chính</th>
+        <th class="index">Chi phí tài chính</th>
+        <th class="index">Chi phí bán hàng</th>
+        <th class="index">Chi phí quản lý doanh nghiệp</th>
+        <th class="index">Lợp nhuận thuần từ hoạt động kinh doanh</th>
+        <th class="index">Thu nhập khác</th>
+        <th class="index">Chi phí khác</th>
+        <th class="index">Lợi nhuận khác</th>
+        <th class="index">Lợi nhuận kế toán trước thuế</th>
+        <th class="index">Lợi nhuận sau thuế thu nhập</th>
+        <th class="index">Ebitda</th>
+      </tr>
+
+    <% @data.each_with_index do |row,index| %>
+      <tr class="data_row row_<%=(index + 1)%2 %>">
+        <td style="display: table-cell;" class="index"><%= index+1 %></td>
+        <td class="index"><%= row["ticker"] %></td>
+        <td class="index"><%= row["year"] %></td>
+
+        <td class="index"> <%= row["current_assets"] %> </td>
+        <td class="index"> <%= row["cash_and_cash_euivalents"] %> </td>
+        <td class="index"> <%= row["short_term_financial_investment"] %> </td>
+        <td class="index"> <%= row["short_term_account_receivables"] %> </td>
+        <td class="index"> <%= row["inventory"] %> </td>
+        <td class="index"> <%= row["other_current_assets"] %> </td>
+        <td class="index"> <%= row["non_current_assets"] %> </td>
+        <td class="index"> <%= row["long_term_account_receivable"] %> </td>
+        <td class="index"> <%= row["fixed_assets"] %> </td>
+        <td class="index"> <%= row["loi_the_thuong_mai"] %> </td>
+        <td class="index"> <%= row["real_estate_investment"] %> </td>
+        <td class="index"> <%= row["long_term_finacial_investments"] %> </td>
+        <td class="index"> <%= row["other_long_term_assets"] %> </td>
+        <td class="index"> <%= row["total_assets"] %> </td>
+        <td class="index"> <%= row["liabilities"] %> </td>
+        <td class="index"> <%= row["short_term_liabilities"] %> </td>
+        <td class="index"> <%= row["long_term_liabilities"] %> </td>
+        <td class="index"> <%= row["owners_equity"] %> </td>
+        <td class="index"> <%= row["loi_ich_co_dong_thieu_so"] %> </td>
+        <td class="index"> <%= row["gross_sale_revenues"] %> </td>
+        <td class="index"> <%= row["deduction_revenues"] %> </td>
+        <td class="index"> <%= row["net_sales"] %> </td>
+        <td class="index"> <%= row["cost_of_goods_sold"] %> </td>
+        <td class="index"> <%= row["gross_profit"] %> </td>
+        <td class="index"> <%= row["financial_activities_revenues"] %> </td>
+        <td class="index"> <%= row["financial_expenses"] %> </td>
+        <td class="index"> <%= row["selling_expenses"] %> </td>
+        <td class="index"> <%= row["managing_expenses"] %> </td>
+        <td class="index"> <%= row["net_profit_from_operating_activities"] %> </td>
+        <td class="index"> <%= row["other_incomes"] %> </td>
+        <td class="index"> <%= row["other_expenses"] %> </td>
+        <td class="index"> <%= row["other_profits"] %> </td>
+        <td class="index"> <%= row["total_profit_before_tax"] %> </td>
+        <td class="index"> <%= row["profit_after_corporate_income_tax"] %> </td>
+        <td class="index"> <%= row["ebitda"] %> </td>
+      </tr>
+    <% end %> 
+  </table>
+
+
+<h2 style="color:green;">Chuyển hóa dữ liệu</h2>
+  <table border="0" cellspacing="0" cellpadding="3">
+      <tr class="tr_header">
+        <th class="index" title="">No.</th>
+        <th class="index" title="">Mã</th>
+        <th class="index" title="">Năm</th>
+        <th class="index" title="Lợi nhuận ròng/Doanh thu ròng">index_1</th>
+        <th class="index" title="Lợi nhuận ròng/Tổng tài sản">index_2</th>
+        <th class="index" title="Tổng lợi nhuận trước thuế/ Tổng tài sản">index_3</th>
+        <th class="index" title="(Lợi nhuận trước thuế + Lợi nhuận khác)/Tổng tài sản">index_4</th>
+        <th class="index" title="(Lợi nhuận trước thuế + Lợi nhuận khác)/Tổng số">index_5</th>
+        <th class="index" title="Tổng tiền mặt/Nợ ngắn hạn">index_6</th>
+        <th class="index" title="Tổng danh thu/Tổng tài sản">index_7</th>
+        <th class="index" title="Giá vốn bán hàng/Hàng tồn kho">index_8</th>
+        <th class="index" title="Tiềng thu được từ khách hàng/Tổng danh thu">index_9</th>
+        <th class="index" title="Tổng nợ/Tổng vốn cổ động">index_10</th>
+        <th class="index" title="Tổng tài sản/Vốn cổ đông">index_11</th>
+        <th class="index" title="Nợ dài hạn/Vốn cổ đông">index_12</th> 
+        <th class="index" title="Tổng số nợ/Tổng tài sản">index_13</th>
+        <th class="index" title="Tài sản hiện tại/Nợ hiện tại">index_14</th>
+        <th class="index" title="Tài sản quy đổi tiền mặt nhanh/ Nợ hiện hành">index_15</th>
+        <th class="index" title="Tổng tiền mặt/Tổng tài sản">index_16</th>
+      </tr>
+
+    <% @data.each_with_index do |row,index| %>
+      <tr class="data_row row_<%=(index + 1)%2 %>">
+        <td style="display: table-cell;" class="index"><%= index+1 %></td>
+        <td class="index"><%= row["ticker"] %></td>
+        <td class="index"><%= row["year"] %></td>
+        <td class="index"> <%= row["v1"] %> </td>
+        <td class="index"> <%= row["v2"] %> </td>
+        <td class="index"> <%= row["v3"] %> </td>
+        <td class="index"> <%= row["v4"] %> </td>
+        <td class="index"> <%= row["v5"] %> </td>
+        <td class="index"> <%= row["v6"] %> </td>
+        <td class="index"> <%= row["v7"] %> </td>
+        <td class="index"> <%= row["v8"] %> </td>
+        <td class="index"> <%= row["v9"] %> </td>
+        <td class="index"> <%= row["v10"] %> </td>
+        <td class="index"> <%= row["v11"] %> </td>
+        <td class="index"> <%= row["v12"] %> </td>
+        <td class="index"> <%= row["v13"] %> </td>
+        <td class="index"> <%= row["v14"] %> </td>
+        <td class="index"> <%= row["v15"] %> </td>
+        <td class="index"> <%= row["v16"] %> </td>
+      </tr>
+    <% end %> 
+  </table>
+
+<h3 style="color:green;">Luật kết hợp:</h3>
+
+<% @rules.each_with_index do |rule,index| %>
+  <h3 style="color:brown;"><%= index + 1 %>.</h3>
+  <h3 style="color:brown;"><%= rule[0].keys.first %> ==> <%= rule[0].values.first %></h3>
+  <h3>Thì</h3>
+  <h3 style="color:red;"><%= rule[1].keys.first %> ==> <%= rule[1].values.first %></h3>
+<%end%>
 
 <script type="text/javascript">
 var main_url = "<%= url_for :controller => 'association_rules', :action => 'index'%>";
 var select_nam = GetURLParameter('nam_id');
 $('#nam').val(select_nam).prop('selected',true);
 if (!select_nam) {
-$('#nam').val("ALL").prop('selected',true);
+$('#nam').val("2012").prop('selected',true);
 }
 </script>
 
